@@ -1,3 +1,4 @@
+
 package com.Seleniumdemo;
 
 import java.util.concurrent.TimeUnit;
@@ -14,6 +15,7 @@ public class AlertFunctions {
 		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("file:///D:/Selenium/alert.html");
+		System.out.println("Successfully accessed the URL")
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//button[@onclick='alertFunction()']")).click();
 		Alert alert=driver.switchTo().alert();
