@@ -11,6 +11,8 @@ public class AlertFunctions {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
+		
+		//This is new comments
 		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("file:///D:/Selenium/alert.html");
