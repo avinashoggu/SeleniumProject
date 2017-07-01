@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="BrowserName" value="firefox1"/>
+  <parameter name="URL" value="http://www.google.com"/>
+  <test name="Selecting Radio buttons(failed)" parallel="none">
+    <parameter name="BrowserName" value="firefox1"/>
+    <parameter name="URL" value="http://www.google.com"/>
+    <classes>
+      <class name="com.Seleniumdemo.TestNGParameters">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Seleniumdemo.TestNGParameters -->
+    </classes>
+  </test> <!-- Selecting Radio buttons(failed) -->
+</suite> <!-- Failed suite [Suite] -->

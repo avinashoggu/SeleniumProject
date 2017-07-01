@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Selecting Radio buttons">
+  <parameter name="URL" value="http://www.google.com">
+  </parameter>
+  <parameter name="BrowserName" value="firefox1">
+  </parameter>
+  <!-- <groups>
+  <define name ="All">
+  <include name="GroupName"/>
+  </define>
+  <run>
+  <include name="All"/>
+  </run>
+  </groups> -->
+  <classes>
+  <class name="com.Seleniumdemo.TestNGParameters"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
